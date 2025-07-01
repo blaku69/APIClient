@@ -6,10 +6,14 @@ the json simplifier replaces strings so you can just type what you want without 
 
 Example:
 
-username=blaku passwords[blakutest blaku=test blaku=api]
+username=blaku passwords[blakutest blaku=test blaku=api] function(hi,hi=bye)
 
 turns into
 
-{"username":"blaku","passwords":["blakutest","blaku":"test","blaku":"api"]}
+{"username":"blaku","passwords":["blakutest","blaku":"test","blaku":"api"] "function":{"hi","hi":"bye"}
+
+
+()={} []=[]  = = : space=,
+
 
 if you need help just contact blakusuport@gmail.com
